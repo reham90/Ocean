@@ -1677,6 +1677,7 @@ html[dir="rtl"] .footer-accordion.active:after {
   .select-selected:after {
     color: var(--main-color);
     inset-inline-end: 5px;
+    font-size: 14px;
   }
   .custom-select {
     margin-inline-end: 0;
