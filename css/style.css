@@ -654,6 +654,11 @@ html[dir="rtl"] .open-search {
   font-size: 24px;
   margin-inline-end: 6px;
 }
+.user-icon {
+  font-size: 24px;
+  margin-inline-end: 6px;
+  color: var(--main-color);
+}
 
 .close-search::after {
   content: "";
@@ -1606,6 +1611,16 @@ html[dir="rtl"] .footer-accordion.active:after {
   .first-part-header {
     padding: 8px 0 12px;
   }
+  .register:after{
+    background-color:  rgb(227, 227, 227);
+  }
+  .select-items div{
+    padding-inline-start: 15px;
+    padding-inline-end: 15px;
+  }
+  .arrow-down-icon{
+    color: rgb(126, 126, 126);
+  }
   .language-bar {
     display: none !important;
   }
@@ -1635,7 +1650,7 @@ html[dir="rtl"] .footer-accordion.active:after {
     display: none;
   }
   .nav-header .img-logo img {
-    max-width: 90px;
+    max-width: 110px;
     margin-inline-start: 31px;
   }
 
@@ -1669,7 +1684,7 @@ html[dir="rtl"] .footer-accordion.active:after {
   }
   .big-menu {
     display: block;
-    margin-top: 95px;
+    margin-top: 106px;
     height: auto;
   }
   .select-selected.select-arrow-active:after {
@@ -1750,7 +1765,7 @@ html[dir="rtl"] .footer-accordion.active:after {
   }
 
   .big-menu li {
-    margin-bottom: 20px;
+    margin-bottom: 13px;
   }
 
   .nav-header li a {
@@ -1861,7 +1876,7 @@ html[dir="rtl"] .footer-accordion.active:after {
     width: auto;
     position: absolute;
     inset-inline-end: 0;
-    top: 5px;
+    top: 15px;
   }
   .cart-language-part .language {
     display: none;
@@ -1896,8 +1911,13 @@ html[dir="rtl"] .footer-accordion.active:after {
   .cart-list li {
     margin: 0;
     margin-inline-end: 16px;
+    width: 24px;
+    height: 24px;
   }
   .favo-icon {
+    margin-inline-end: 0;
+  }
+  .user-icon {
     margin-inline-end: 0;
   }
 
@@ -1910,15 +1930,13 @@ html[dir="rtl"] .footer-accordion.active:after {
     inset-inline-start: 0;
     transition: all 0.3s ease-in-out;
     z-index: 9;
-    top: 8px;
+    top: 15px;
     color: var(--main-color);
   }
   .fixed-nav .fixed-logo {
     order: 1;
   }
-  .user-icon {
-    order: 3;
-  }
+  
 
   .cart-mobile-icon {
     order: 1;
