@@ -1617,6 +1617,7 @@ html[dir="rtl"] .footer-accordion.active:after {
   .select-items div{
     padding-inline-start: 15px;
     padding-inline-end: 15px;
+    font-size: 16px;
   }
   .arrow-down-icon{
     color: rgb(126, 126, 126);
@@ -1673,6 +1674,7 @@ html[dir="rtl"] .footer-accordion.active:after {
     position: relative;
     width: 100%;
     font-family: "Bahij_TheSansArabic-Bold";
+    font-size: 18px;
   }
   .select-selected:after {
     color: var(--main-color);
@@ -1955,6 +1957,7 @@ html[dir="rtl"] .footer-accordion.active:after {
     display: flex;
     margin-inline-end: 0;
     font-family: "Bahij_TheSansArabic-Bold";
+    font-size: 18px;
   }
 
   .mega-menu-list {
