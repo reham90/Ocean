@@ -7,6 +7,7 @@ $(document).ready(function () {
 
   // phone size menu onclick
   if ($(window).width() <= 991) {
+ 
     $('#menu-id').click((e) => {
       e.preventDefault();
       $('.menu-bars .bar').toggleClass('hide-icon');
@@ -65,6 +66,7 @@ $(document).ready(function () {
         }
       
   });
+
   const $stickyheader = $('header');
   lastScroll = 0;
   $(window).on('scroll load', () => {

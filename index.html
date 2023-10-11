@@ -72,6 +72,12 @@
             <div class="first-part-header">
                <div class="container">
                   <div class="nav-header">
+                     <!-- menu-bars-for-mobile -->
+                     <a class="menu-bars fixall" id="menu-id" href="#!">
+                        <i class="las la-bars bar show-icon"></i>
+                        <i class="las la-times times hide-icon"></i>
+                        </a>
+                     <!-- end menu-bars-for-mobile -->
                       <!-- logo-section -->
                       <div class="img-logo">
                         <a href="#"><img src="images/logo.png" class="img-responsive" alt="logo"/></a>
@@ -103,7 +109,17 @@
                      <div class="cart-language-part">
                         <!-- cart-list -->
                         <ul class="cart-list">
-                          
+                           <li class="fav-icon hidden-lg hidden-md">
+                              <div class="dropdown">
+                                 <button class="dropbtn">
+                                 <i class="las la-user favo-icon"></i>
+                                 </button>
+                                 <div class="dropdown-content">
+                                    <a href="#">تسجيل دخول </a>
+                                    <a href="#">تسجيل جديد </a>
+                                 </div>
+                              </div>
+                           </li>
                            <li class="fav-icon">
                               <a href="#" class="fav-link" >
                               <i class="lar la-heart favo-icon"></i>
@@ -129,24 +145,7 @@
                        
                      </div>
                      <!-- end cart-list & language part -->
-                     <!-- icons shown in mobile -->
-                     <div class="show-icons">
-                       
-                        <button
-                           role="button"
-                           type="button"
-                           title=""
-                           class="add-to fixed-search"
-                           >
-                        <span class="open-search"> </span>
-                        </button>
-                        <a class="menu-bars fixall" id="menu-id" href="#!">
-                        <i class="las la-bars bar show-icon"></i>
-                        <i class="las la-times times hide-icon"></i>
-                        </a>
-                        
-                     </div>
-                     <!-- icons shown in mobile -->
+                    
                   </div>
                </div>
             </div>
@@ -155,7 +154,29 @@
             <div class="navgition">
                
                <div class="container">
+                  <div class="register-links-block hidden-lg hidden-md">
+                     <div class="dropdown ">
+                        <button class="dropbtn">
+                           <a href="#" class="register-links register coin">
+                             ريال سعودي
+                             <i class="las la-angle-down arrow-down-icon"></i>
+                           </a>
+                        </button>
+                        <div class="dropdown-content">
+                           <a href="#">دولار أمريكي</a>
+                           <a href="#">جنيه مصري</a>
+                        </div>
+                     </div>
+                     <a href="index-en.html" class="register-links language-link">
+                        English
+                        <img class="flag" src="images/flag.png" alt="usa flag">
+                     
+                     </a>
+                  </div>
                   <ul class="big-menu list-unstyled">
+                     <li class="hidden-lg hidden-md">
+                        <a href="index.html"> الرئيسية</a>
+                     </li>
                      <li class=" slide-menu">
                         <div class=" menu-name custom-select">
                        
@@ -198,7 +219,7 @@
                         </div>
                        
                     
-                        <li>
+                        <li class="hidden-xs hidden-sm">
                            <a href="index.html"> الرئيسية</a>
                         </li>
                         <li>
@@ -216,9 +237,7 @@
                         <li>
                            <a href="#"> اتصل بنا</a>
                         </li>
-                        <li class="hidden-lg">
-                           <a href="index-en.html"> English</a>
-                        </li>
+                       
                      
                   </ul>
                </div>
